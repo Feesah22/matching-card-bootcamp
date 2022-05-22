@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  h1{
+    font-size : 2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: .2em;
+    text-shadow:black 8px 4px 0px;
+    color:rgb(251, 80, 182);
+    
+  }
+  
+  html {
+    font-size: 3em;
+    background-image: url(images/color.gif);
+  }
+  
+  img {
+    height: 4.5em;
+    float: left;
+    width:4.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+    
+  }
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+  }
+  
+  
+  .hide{
+      display: none;
+   }
+
+   div {
+       height: 4.5em;
+   }
+   button{
+     
+     font-size: .5em;
+     margin-left: 22em;
+     background-color: black;
+     color: rgb(241, 15, 173);
+     
+   }
+
+   body{
+     background-color:rgb(219, 214, 214)
+   }
